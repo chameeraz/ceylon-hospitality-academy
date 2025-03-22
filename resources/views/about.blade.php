@@ -29,12 +29,7 @@
                     </p>
                 </div>
 
-                <!-- CAT button -->
-                <div class="">
-                    <a class="btn-oak text-uppercase btn-1 hover-filled-slide-down w-100 animateIn delay-4">
-                        <span>Register Now</span>
-                    </a>
-                </div>
+
 
 
 
@@ -206,8 +201,8 @@
                 <!-- CAT button -->
                 <div class="mt-5">
 
-                    <a class="btn-oak btn-1 hover-filled-slide-down w-100 animateIn delay-2">
-                        <span>Register Today</span>
+                    <a href="{{ url('/courses') }}" class="btn-oak btn-1 hover-filled-slide-down w-100 animateIn delay-2">
+                        <span>View Courses</span>
                     </a>
                 </div>
 

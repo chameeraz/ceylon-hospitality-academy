@@ -221,7 +221,7 @@
                                     <!-- CAT button -->
                                     <div class="d-flex justify-content-center">
                                         <a class="btn-oak btn-1 hover-filled-slide-down w-100">
-                                            <span>Learn More</span>
+                                            <span>View Gallery</span>
                                         </a>
                                     </div>
                             </div>

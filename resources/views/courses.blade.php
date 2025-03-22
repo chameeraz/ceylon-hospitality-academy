@@ -29,12 +29,7 @@
                     </p>
                 </div>
 
-                <!-- CAT button -->
-                <div class="">
-                    <a class="btn-oak text-uppercase btn-1 hover-filled-slide-down w-100 animateIn delay-4">
-                        <span>Register Now</span>
-                    </a>
-                </div>
+
 
 
 
@@ -43,6 +38,8 @@
 
 
     </div>
+
+
     {{-- course grid --}}
     <div class="container-fluid ">
 

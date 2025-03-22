@@ -20,8 +20,9 @@
 
             <!-- CAT button -->
             <div class="mt-5">
-                <a class="btn-oak text-uppercase btn-1 hover-filled-slide-down w-100 animateIn delay-4">
-                    <span>Register Now</span>
+                <a href="{{ url('/about') }}"
+                    class="btn-oak text-uppercase btn-1 hover-filled-slide-down w-100 animateIn delay-4">
+                    <span>About Us</span>
                 </a>
             </div>
 
@@ -73,9 +74,9 @@
 
                         <div class="">
                             <ul class="p-0 d-flex gap-2 flex-column">
-                                <li class="hoverU"><a href="#about">About</a></li>
-                                <li class="hoverU"><a href="#submit">Gallery</a></li>
-                                <li class="hoverU"><a href="#github">Courses</a></li>
+                                <li class="hoverU"><a href="{{ url('/about') }}">About</a></li>
+                                <li class="hoverU"><a href="{{ url('/gallery') }}">Gallery</a></li>
+                                <li class="hoverU"><a href="{{ url('/courses') }}">Courses</a></li>
                             </ul>
 
 
@@ -83,25 +84,6 @@
 
                     </div>
 
-                    <!-- community -->
-                    <div class="col-md-4 mt-5 mt-md-0">
-                        <!-- footer section title -->
-                        <h5 class="text-white mb-4 font-playFair">COMMUNITY</h5>
-
-                        <div class="">
-                            <ul class="p-0 d-flex gap-2 flex-column">
-                                <li class="hoverU"><a href="#introduction">Introduction</a></li>
-                                <li class="hoverU"><a href="#documentation">Documentation</a></li>
-                                <li class="hoverU"><a href="#usage">Usage</a></li>
-                                <li class="hoverU"><a href="#globals">Globals</a></li>
-                                <li class="hoverU"><a href="#elements">Elements</a></li>
-                                <li class="hoverU"><a href="#collections">Collections</a></li>
-                                <li class="hoverU"><a href="#themes">Themes</a></li>
-                            </ul>
-
-                        </div>
-
-                    </div>
 
                     <!-- Support -->
                     <div class="col-md-4 mt-5 mt-md-0">
@@ -112,7 +94,23 @@
                             <ul class="p-0 d-flex gap-2 flex-column">
                                 <li class="hoverU"><a href="#api">Privacy Policy</a></li>
                                 <li class="hoverU"><a href="#form-validation">Terms of Service</a></li>
-                                <li class="hoverU"><a href="#visibility">Visibility</a></li>
+                            </ul>
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- social -->
+                    <div class="col-md-4 mt-5 mt-md-0">
+                        <!-- footer section title -->
+                        <h5 class="text-white mb-4 font-playFair">Social</h5>
+
+                        <div class="">
+                            <ul class="p-0 d-flex gap-2 flex-column">
+                                <li class="hoverU"><a href="#about">Facebook</a></li>
+                                <li class="hoverU"><a href="#submit">Instagram</a></li>
+                                <li class="hoverU"><a href="#github">Twitter</a></li>
                             </ul>
 
 
