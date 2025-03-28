@@ -14,7 +14,7 @@
 
 
         <div class="row">
-            <div class="col-md-4 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
+            <div class="col-md-6 col-lg-4 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
                 <!-- title -->
                 <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">
                     Shaping the Future of Pastry & Bakery
@@ -56,11 +56,11 @@
 
             <div class="row mt-5">
 
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
                     <img src="{{ asset('assets/images/about/about.jpg') }}" class="img-fluid pin-img" alt="">
                 </div>
 
-                <div class="col-md-6 py-5 p-md-5 about-right">
+                <div class="col-md-12 col-lg-6 py-5 p-md-5 about-right">
 
                     <div class="p-md-5 mb-5 mb-md-0">
                         <!-- icon -->
@@ -117,16 +117,17 @@
 
     </div>
 
+
     <!-- banner section -->
     <div class="container-fluid bannerSection bg-white">
 
         <div class="row d-flex align-items-bottom px-5">
 
             <!-- for alignment purposes only -->
-            <div class="col-md-8"></div>
+            <div class="col-md-6 col-lg-8"></div>
 
 
-            <div class="col-md-4 bg-white p-4 px-md-5">
+            <div class="col-md-6 col-lg-4 bg-white p-4 px-md-5">
                 <!-- title -->
                 <h1 class="text-center mb-5 font-playFair text-oak animateIn delay-2">A Course <br>Designed For You</h1>
 

@@ -15,7 +15,7 @@
 
 
         <div class="row">
-            <div class="col-md-4 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
+            <div class="col-md-6 col-lg-4 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
                 <!-- title -->
                 <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">
                     A Taste of Creativity & Excellence
@@ -73,87 +73,97 @@
             <div class="d-flex flex-wrap gap-2 my-4">
                 <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn" data-category="all">All</a>
                 <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn"
-                    data-category="tuts">Tutorials</a>
+                    data-category="students">Students</a>
                 <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn"
-                    data-category="receipe">Receipes</a>
-                <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn" data-category="events">Events</a>
+                    data-category="kitchen">Kitchen</a>
+                <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn"
+                    data-category="interior">Interior</a>
             </div>
 
             <!-- blog posts -->
             <div class="row mt-5">
 
                 <!-- blog 1 -->
-                <div class="col-md-4 mb-4 category-card tuts">
+                <div class="col-md-4 mb-4 category-card students">
                     <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g1.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <!-- blog 2 -->
-                <div class="col-md-4 mb-4 category-card tuts events">
-                    <!-- blog image  -->
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g2.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <!-- blog 3 -->
-                <div class="col-md-4 mb-4 category-card events">
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
                     <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g3.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <!-- blog 4 -->
-                <div class="col-md-4 category-card receipe">
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
                     <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g4.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-
                 <!-- blog 1 -->
-                <div class="col-md-4 mb-4 category-card tuts">
+                <div class="col-md-4 mb-4 category-card kitchen">
                     <!-- blog image -->
                     <div>
-                        <img src="{{ asset('assets/images/gallery/g5.webp') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/gallery/g5.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <!-- blog 2 -->
-                <div class="col-md-4 mb-4 category-card tuts events">
-                    <!-- blog image  -->
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card kitchen">
+                    <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g6.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <!-- blog 3 -->
-                <div class="col-md-4 mb-4 category-card events">
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card kitchen">
                     <!-- blog image -->
                     <div>
-                        <img src="{{ asset('assets/images/gallery/g7.webp') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/gallery/g7.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <!-- blog 4 -->
-                <div class="col-md-4 category-card receipe">
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card interior">
                     <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g8.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
-                <!-- blog 4 -->
-                <div class="col-md-4 category-card receipe">
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card interior">
                     <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g9.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card interior">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/g10.jpg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+
 
 
 

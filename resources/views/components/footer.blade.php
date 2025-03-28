@@ -4,9 +4,9 @@
     <div class="row d-flex align-items-bottom px-5">
 
         <!-- for alignment purposes only -->
-        <div class="col-md-9"></div>
+        <div class="col-md-6 col-lg-9"></div>
 
-        <div class="col-md-3 bg-white p-4 px-md-5">
+        <div class="col-md-6 col-lg-3 bg-white p-4 px-md-5">
             <!-- title -->
             <h1 class="text-start mb-4 font-playFair text-oak animateIn delay-2">
                 Master the Art of Pastry & Baking
@@ -29,6 +29,7 @@
 
 
         </div>
+
     </div>
 
 </div>
@@ -42,7 +43,7 @@
 
 
             <div class="col-md-5">
-                <img src="assets/images/logo.png" class="img-fluid w-md-50" alt="">
+                <img src="{{ asset('assets/images/logo.png') }}" class="img-fluid w-md-50" alt="">
 
                 <!-- social buttons | mobile -->
                 <div class="mt-5 d-flex justify-content-center gap-5 d-md-none">

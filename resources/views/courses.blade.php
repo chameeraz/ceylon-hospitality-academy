@@ -15,7 +15,7 @@
 
 
         <div class="row">
-            <div class="col-md-4 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
+            <div class="col-md-6 col-lg-4 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
                 <!-- title -->
                 <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">Master the Art of Pastry & Baking
                 </h1>
@@ -45,7 +45,7 @@
 
         <div class="container py-5 px-4 p-md-5">
             <div class="row">
-                <div class="col-md-4 mt-4 mt-md-0">
+                <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
                     <div class="courseCard bg-snow h-100">
                         {{-- course image --}}
                         <img src="{{ asset('assets/images/index/courseCard1.jpg') }}" class="img-fluid" alt="">
@@ -82,42 +82,6 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 mt-4 mt-md-0">
-                    <div class="courseCard bg-snow h-100">
-                        {{-- course image --}}
-                        <img src="{{ asset('assets/images/index/courseCard2.jpg') }}" class="img-fluid" alt="">
-                        {{-- course text data --}}
-                        <div class="p-4">
-                            {{-- course title --}}
-                            <h5 class="fw-bold">BA (Hons) in Hospitality Management (TOP UP)</h5>
-                            {{-- course description --}}
-                            <p class="">Learn the fundamentals of hospitality management and how to build a
-                                successful
-                                business.</p>
-                            {{-- ratings --}}
-                            <div class="d-flex gap-2 align-items-center">
-                                <h5 class="m-0">4.5</h5>
-                                <div class="">
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star-half text-success h6 m-0"></i>
-                                </div>
-
-                                <p class="m-0 text-secondary">(22)</p>
-                            </div>
-
-                            {{-- CAT button --}}
-                            <div class="mt-4">
-                                <a href="{{ url('/courseDetails') }}"
-                                    class="btn-oak text-uppercase btn-1 hover-filled-slide-down">
-                                    <span>Learn More</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
