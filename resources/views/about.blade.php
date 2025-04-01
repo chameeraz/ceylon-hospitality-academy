@@ -14,7 +14,7 @@
 
 
         <div class="row">
-            <div class="col-md-6 col-lg-4 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
+            <div class="col-md-6 col-lg-6 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
                 <!-- title -->
                 <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">
                     Shaping the Future of Pastry & Bakery
