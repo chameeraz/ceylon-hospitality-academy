@@ -109,9 +109,9 @@
 
                         <div class="">
                             <ul class="p-0 d-flex gap-2 flex-column">
-                                <li class="hoverU"><a href="#about">Facebook</a></li>
-                                <li class="hoverU"><a href="#submit">Instagram</a></li>
-                                <li class="hoverU"><a href="#github">Twitter</a></li>
+                                <li class="hoverU"><a href="https://www.facebook.com/ceylonhospitalityacademy">Facebook</a></li>
+                                <li class="hoverU"><a href="https://www.instagram.com/ceylonhospitalityacademy/">Instagram</a></li>
+                                <li class="hoverU"><a href="https://www.linkedin.com/company/ceylon-hospitality-academy/">LinkedIn</a></li>
                             </ul>
 
 

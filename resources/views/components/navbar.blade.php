@@ -65,24 +65,21 @@
 
                         <ul class="nav-links ulStyle-none">
                             <li class="mb-1">
-                                <a href="https://www.instagram.com/hiru_withana/" target="_blank"
+                                <a href="https://www.instagram.com/ceylonhospitalityacademy/ " target="_blank"
                                     class="text-decoration-none fw-bold text-dark">Instagram</a>
                             </li>
 
                             <li class="mb-1">
-                                <a href="https://www.facebook.com/HiruSachinthana"
+                                <a href="https://www.facebook.com/ceylonhospitalityacademy"
                                     class="text-decoration-none fw-bold text-dark" target="_blank">Facebook</a>
                             </li>
 
                             <li class="mb-1">
-                                <a href="https://www.linkedin.com/in/hirunika-withana-490337175/"
+                                <a href="https://www.linkedin.com/company/ceylon-hospitality-academy/"
                                     class="text-decoration-none fw-bold text-dark" target="_blank">Linkedin</a>
                             </li>
 
-                            <li class="mb-1">
-                                <a href="https://github.com/HiruWithana" class="text-decoration-none fw-bold text-dark"
-                                    target="_blank">Github</a>
-                            </li>
+
                         </ul>
 
                     </div>

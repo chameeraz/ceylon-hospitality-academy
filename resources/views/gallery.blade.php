@@ -1,5 +1,9 @@
 @extends('layout.master')
+@section('pageTitle', 'Gallery | Pastry & Bakery Creations | Ceylon Hospitality Academy Kandy')
 
+@section('description', 'Explore stunning pastry & bakery creations from Ceylon Hospitality Academy students. See our modern facilities & hands-on training in Kandy. Get inspired!')
+
+@section('keywords', 'Pastry Gallery Kandy, Bakery Gallery Kandy, Culinary Gallery Sri Lanka, Pastry Creations, Bakery Creations, Culinary Photos, Baking Images, Hotel School Gallery, Culinary School Photos, Student Pastry, Student Bakery, Kandy Baking, Culinary Visuals')
 @section('content')
     <!-- Landing section -->
     <div class="container-fluid eventHero p-0 position-relative">

@@ -1,5 +1,9 @@
 @extends('layout.master')
+@section('pageTitle', 'Pastry & Bakery Courses | Ceylon Hospitality Academy Kandy')
 
+@section('description', 'Explore our comprehensive pastry and bakery courses in Kandy. Learn essential culinary skills with expert instructors. Enroll now and start your culinary journey.')
+
+@section('keywords', 'Pastry Courses Kandy, Bakery Courses Kandy, Culinary Courses Sri Lanka, Pastry Training, Bakery Training, Culinary Education, Baking Classes, Pastry Arts, Baking Arts, Culinary School, Hotel School, Food and Beverage Training, Professional Baking, Culinary Diploma')
 @section('content')
     <!-- Landing section -->
     <div class="container-fluid coursesHero p-0 position-relative">

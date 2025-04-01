@@ -8,8 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>Ceylon Hospitality Academy</title>
+    <title>@yield('pageTitle')</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/original.png') }}">
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
+    <meta name="author" content="Ceylon Hospitality Academy">
+
+    {{-- Open Graph / Social Media Sharing --}}
+    <meta property="og:title" content="@yield('pageTitle')">
+    <meta property="og:description" content="@yield('description')">
+    <meta property="og:image" content="{{ asset('assets/images/Logo-c.png') }}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
 
     <!-- main font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
