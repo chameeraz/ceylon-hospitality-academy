@@ -93,6 +93,7 @@ html.lenis body {
 }
 
 .blogCategoryBtn {
+    text-decoration: none;
     background-color: white;
     color: #0e4679;
     transition: background-color 0.5s ease, color 0.25s ease;

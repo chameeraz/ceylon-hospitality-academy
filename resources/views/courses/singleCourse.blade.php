@@ -8,15 +8,14 @@
                 <div class="col-md-8 pt-md-5">
 
                     <!-- main title -->
-                    <h1 class="font-playFair display-5 fw-bold fw-100 text-white">Higher National Diploma (HND) in
-                        Hospitality Management
+                    <h1 class="font-playFair display-5 fw-bold fw-100 text-white">
+                        Certificate in Pastry and Bakery
                     </h1>
 
                     <!-- intro -->
                     <p class="mt-5 text-white text-18 fw-100">
-                        Completing an internationally recognized industry-specific qualification within 24 months enables
-                        you to progress directly to an Honours degree or seek employment in a top-notch establishment in the
-                        hospitality industry.
+                        The Pastry and Bakery industry offers vast job opportunities worldwide. This course equips students
+                        with up-to-date knowledge and hands-on skills to excel globally in a competitive work environment.
                     </p>
 
                 </div>
@@ -56,22 +55,18 @@
                     <div id="overview" class="">
                         <div class="pt-4">
                             <h2 class="font-playFair fw-bold">Course Overview</h2>
-                            <p class="fw-100 mt-3">Completing an internationally recognized industry-specific qualification
-                                within 24 months
-                                enables you to progress directly to an Honours degree or seek employment in a top-notch
-                                establishment in the hospitality industry.
+                            <p class="fw-100 mt-3">
+                                The pastry and bakery industry is one of the most dynamic and in-demand sectors in
+                                hospitality — offering exciting career paths in hotels, restaurants, cruise lines, bakeries,
+                                patisseries, and even your own business. At Ceylon Hospitality Academy, we don’t just teach
+                                recipes — we train you to become a well-rounded pastry professional.
                             </p>
 
                             <p class="fw-100">
-                                Overseas employment opportunities, as well as
-                                senior management roles are an assured possibility as you progress in your career. This
-                                programme, which includes industry experience, covers all aspects of hospitality. You
-                                will
-                                gain knowledge across areas such as Food and Beverage, Conference and Events, Revenue
-                                Management, Front Office Operations, in addition to optional modules such as Hospitality
-                                Supply Chain Management and Hospitality Digital Marketing, which prepare you for a
-                                lucrative
-                                career.
+                                The program is conducted in a modern kitchen with advanced equipment and tools and covers
+                                essential baking techniques, ensuring graduates are industry-ready. Upon completion,
+                                students will be skilled professionals prepared to meet the demands of the global pastry and
+                                bakery sector.
                             </p>
 
 
@@ -80,7 +75,7 @@
                     </div>
 
 
-                    <div id="courseOutline" class="">
+                    <div id="courseOutline" class="hidden">
                         <div class="pt-4">
                             <h2 class="font-playFair fw-bold">Course Overview</h2>
 
@@ -185,12 +180,14 @@
 
                     <div id="Schedule" class="">
                         <div class="pt-4">
-                            <h2 class="font-playFair fw-bold">Schedule</h2>
-                            <p class="fw-100 mt-3">Completing an internationally recognized industry-specific qualification
-                                within 24 months
-                                enables you to progress directly to an Honours degree or seek employment in a top-notch
-                                establishment in the hospitality industry.
+                            <h2 class="font-playFair fw-bold">Classroom</h2>
+                            <p class="fw-100 mt-3">
+                                Classes are held in a modern, fully-equipped training kitchen that mirrors real industry
+                                conditions. You'll work with industry-grade mixers, ovens, tools, and equipment used by
+                                professional chefs — giving you the confidence to step into any commercial bakery.
                             </p>
+
+
 
 
                         </div>
@@ -213,11 +210,10 @@
 
                             <div class="px-4 pb-4">
 
-                                <h3 class="text-center font-playFair">A Course <br>Designed For You</h6>
-                                    <h6 class="fw-normal text-center mt-3 mb-4">OptimizeUniversity gives you the latest
-                                        marketing training courses, strategies & tactics to
-                                        grow
-                                        your business fast.</h6>
+                                <h3 class="text-center font-playFair">See the Craft.<br> Feel the Passion.</h6>
+                                    <h6 class="fw-normal text-center mt-3 mb-4">
+                                        Step into the world of Ceylon Hospitality Academy through our gallery.
+                                    </h6>
                                     <!-- CAT button -->
                                     <div class="d-flex justify-content-center">
                                         <a class="btn-oak btn-1 hover-filled-slide-down w-100">

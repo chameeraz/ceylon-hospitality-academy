@@ -1,16 +1,21 @@
 @extends('layout.master')
 @section('pageTitle', 'Gallery | Pastry & Bakery Creations | Ceylon Hospitality Academy Kandy')
 
-@section('description', 'Explore stunning pastry & bakery creations from Ceylon Hospitality Academy students. See our modern facilities & hands-on training in Kandy. Get inspired!')
+@section('description',
+    'Explore stunning pastry & bakery creations from Ceylon Hospitality Academy students. See our
+    modern facilities & hands-on training in Kandy. Get inspired!')
 
-@section('keywords', 'Pastry Gallery Kandy, Bakery Gallery Kandy, Culinary Gallery Sri Lanka, Pastry Creations, Bakery Creations, Culinary Photos, Baking Images, Hotel School Gallery, Culinary School Photos, Student Pastry, Student Bakery, Kandy Baking, Culinary Visuals')
+@section('keywords',
+    'Pastry Gallery Kandy, Bakery Gallery Kandy, Culinary Gallery Sri Lanka, Pastry Creations, Bakery
+    Creations, Culinary Photos, Baking Images, Hotel School Gallery, Culinary School Photos, Student Pastry, Student Bakery,
+    Kandy Baking, Culinary Visuals')
 @section('content')
     <!-- Landing section -->
     <div class="container-fluid eventHero p-0 position-relative">
 
         <div>
             <!-- slogan -->
-            <h6 class="text-white text-center text-uppercase">Gallery of Pastry & Bakery</h6>
+            <h6 class="text-white text-center text-uppercase">See the Craft. Feel the Passion.</h6>
             <!-- title -->
             <h1 class="font-playFair display-3 text-center text-white">Explore Our Work</h1>
 
@@ -27,11 +32,11 @@
 
                 <!-- info -->
                 <div>
-                    <h6 class="animateIn delay-3 text-center mb-3 text-uppercase">New Opportunities with Strong
-                        Connections
+                    <h6 class="animateIn delay-3 text-center mb-3 text-uppercase">
+                        Take a glimpse into the life of our academy.
                     </h6>
                     <p class="mt--55 animateIn delay-4 text-center">
-                        Embrace the power of networking and connections to enrich your professional life.
+                        Join us and start baking your story today!
                     </p>
                 </div>
 

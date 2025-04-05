@@ -1,9 +1,15 @@
 @extends('layout.master')
 @section('pageTitle', 'Ceylon Hospitality Academy | Pastry & Bakery School Kandy')
 
-@section('description', 'Master pastry & bakery arts at Ceylon Hospitality Academy, Kandy. Expert training, modern facilities. Launch your culinary career in Sri Lanka. #HotelSchool #Pastry')
+@section('description',
+    'Master pastry & bakery arts at Ceylon Hospitality Academy, Kandy. Expert training, modern
+    facilities. Launch your culinary career in Sri Lanka. #HotelSchool #Pastry')
 
-@section('keywords', 'Pastry School Kandy, Bakery School Kandy, Hotel School Kandy, Culinary School Kandy, Pastry Training Sri Lanka, Bakery Training Sri Lanka, Hospitality Training Kandy, Culinary Education Kandy, Pastry Chef Training, Bakery Chef Training, Professional Baking Courses, Pastry Arts Courses, Baking Arts Courses, Culinary Arts School, Hospitality Management School, Food and Beverage Training')
+@section('keywords',
+    'Pastry School Kandy, Bakery School Kandy, Hotel School Kandy, Culinary School Kandy, Pastry
+    Training Sri Lanka, Bakery Training Sri Lanka, Hospitality Training Kandy, Culinary Education Kandy, Pastry Chef
+    Training, Bakery Chef Training, Professional Baking Courses, Pastry Arts Courses, Baking Arts Courses, Culinary Arts
+    School, Hospitality Management School, Food and Beverage Training')
 
 @section('content')
     <!-- Landing section -->
@@ -11,9 +17,9 @@
 
         <div class="mb-5">
             <!-- slogan -->
-            <h5 class="text-white text-center text-uppsercase  fw-light">Start Your Baking Journey</h5>
+            <h5 class="text-white text-center text-uppsercase  fw-light">From Passion to Perfection</h5>
             <!-- title -->
-            <h1 class="font-playFair display-3 text-center text-white">Become a Pastry Chef
+            <h1 class="font-playFair display-3 text-center text-white">Master the Art of Pastry & Bakery
             </h1>
 
         </div>
@@ -22,7 +28,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-6 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
                 <!-- title -->
-                <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">Master the Art of Pastry & Baking
+                <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">Bake Your Dreams Into Reality
                 </h1>
 
                 <!-- info -->
@@ -107,12 +113,12 @@
 
                 <div class="col-md-6 col-lg-4">
                     <h1 class="display-4 font-playFair largeTxt2 text-oak animateIn delay-3">
-                        Professional Hospitality Courses
+                        Professional Pastry & Bakery Courses
                     </h1>
-                    <p class="fw-100 mt-4 animateIn delay-4">Our program prepares students to excel in hotels, bakeries,
-                        cafes, and
-                        restaurants worldwide. We provide the foundation for success in the competitive
-                        culinary world.</p>
+                    <p class="fw-100 mt-4 animateIn delay-4">
+                        Our program prepares students to excel in bakeries, pastry shops, cafes, hotels, and restaurants
+                        worldwide. We provide the foundation for success in the competitive world of pastry and bakery.
+                    </p>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
@@ -122,11 +128,10 @@
                         {{-- course text data --}}
                         <div class="p-4">
                             {{-- course title --}}
-                            <h5 class="fw-bold">Foundation in Hospitality Management</h5>
+                            <h5 class="fw-bold">Certificate in Pastry and Bakery</h5>
                             {{-- course description --}}
-                            <p class="">Learn the fundamentals of hospitality management and how to build a
-                                successful
-                                business.</p>
+                            <p class="">Learn the fundamentals of pastry and bakery while gaining the skills needed to
+                                build a successful career in the industry.</p>
                             {{-- ratings --}}
                             <div class="d-flex gap-2 align-items-center">
                                 <h5 class="m-0">4.5</h5>
@@ -295,9 +300,9 @@
 
                     <!-- info -->
                     <div>
-                        <h6 class="animateIn delay-2 text-uppercase">Industry Recognized Certifications</h6>
-                        <p class="mt--55 animateIn delay-3">arn an NVQ Level 4 Certificate in Pastry & Bakery, recognized
-                            in Sri Lanka and beyond.</p>
+                        <h6 class="animateIn delay-2 text-uppercase">State-of-the-Art Facilities</h6>
+                        <p class="mt--55 animateIn delay-3">Train in fully equipped kitchens with modern bakery machines,
+                            AC classrooms, and industry-standard tools.</p>
                     </div>
                 </div>
 
@@ -311,9 +316,9 @@
 
                     <!-- info -->
                     <div>
-                        <h6 class="animateIn delay-2 text-uppercase">Career Advancement</h6>
-                        <p class="mt--55 animateIn delay-3">Get industry connections, job placements, and hands-on work
-                            experience.</p>
+                        <h6 class="animateIn delay-2 text-uppercase">International Opportunities</h6>
+                        <p class="mt--55 animateIn delay-3">The best students may get a chance to participate in
+                            international culinary competitions overseas, representing the academy.</p>
                     </div>
                 </div>
 
@@ -348,31 +353,24 @@
 
             <div class="mt-5 d-flex flex-wrap gap-4 justify-content-center py-4 px-md-5">
 
-                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
-                    All Courses
-                </button>
+                <a href="{{ url('/courses') }}"
+                    class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
+                    Courses
+                </a>
 
-                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">
-                    Course Name 1
-                </button>
-
-
-
-                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">The
-                    Course Name 2</button>
-
-                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
-                    Latest Events
-                </button>
-
-
-                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">
+                <a href="{{ url('/about') }}"
+                    class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">
                     About Ceylon Hospitality
-                </button>
+                </a>
 
-                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
-                    Gallery
-                </button>
+
+
+                <a href="{{ url('/gallery') }}"
+                    class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">
+                    Photo Gallery
+                </a>
+
+
 
 
 

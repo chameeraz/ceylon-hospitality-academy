@@ -1,9 +1,15 @@
 @extends('layout.master')
 @section('pageTitle', 'About Ceylon Hospitality Academy | Pastry & Bakery School in Kandy')
 
-@section('description', 'Discover Ceylon Hospitality Academy in Kandy, Sri Lanka. Learn about our expert instructors, modern training, and commitment to your culinary success in pastry and bakery arts.')
+@section('description',
+    'Discover Ceylon Hospitality Academy in Kandy, Sri Lanka. Learn about our expert instructors,
+    modern training, and commitment to your culinary success in pastry and bakery arts.')
 
-@section('keywords', 'About Us Ceylon Hospitality Academy, Pastry School Kandy, Bakery School Kandy, Culinary School Kandy, Pastry Training Sri Lanka, Bakery Training Sri Lanka, Hospitality Training Kandy, Culinary Education Kandy, Pastry Chef Training, Bakery Chef Training, Professional Baking Courses, Pastry Arts Courses, Baking Arts Courses, Culinary Arts School')
+@section('keywords',
+    'About Us Ceylon Hospitality Academy, Pastry School Kandy, Bakery School Kandy, Culinary School
+    Kandy, Pastry Training Sri Lanka, Bakery Training Sri Lanka, Hospitality Training Kandy, Culinary Education Kandy,
+    Pastry Chef Training, Bakery Chef Training, Professional Baking Courses, Pastry Arts Courses, Baking Arts Courses,
+    Culinary Arts School')
 @section('content')
     <!-- Landing section -->
     <div class="container-fluid aboutHero p-0 position-relative">
@@ -74,14 +80,16 @@
                         <h1 class="font-playFair fw-normal">Our Story</h1>
                         <!-- text -->
                         <p>
-                            Ceylon Hospitality Academy was founded with a vision to bridge the gap between passion and
-                            profession.
+                            Ceylon Hospitality Academy is a premier Pastry and Bakery School located in the heart of Kandy,
+                            Sri Lanka. Dedicated to providing modern and up-to-date culinary education, the academy offers
+                            specialized training in pastry and bakery arts, equipping students with the skills and knowledge
+                            required to excel in the hospitality industry.
                         </p>
 
                         <p>
-                            Recognizing the growing demand for skilled pastry and bakery professionals, we
-                            designed a comprehensive training program that provides both theoretical knowledge and practical
-                            expertise.
+                            With expert instructors, hands-on learning experiences, and a globally relevant curriculum,
+                            Ceylon Hospitality Academy prepares aspiring chefs to master the art of baking and pastry
+                            creation, ensuring their success in local and international culinary careers.
                         </p>
                     </div>
 
@@ -93,9 +101,8 @@
                         <h1 class="font-playFair fw-normal">Our Vision</h1>
                         <!-- text -->
                         <p>
-                            To provide high-quality pastry and bakery education, empowering students to become skilled
-                            professionals and creative artisans who can thrive in local and international culinary
-                            industries.
+                            To become Sri Lanka’s leading institute for pastry and bakery education, inspiring creativity,
+                            excellence, and innovation in every aspiring baker and pastry chef.
                         </p>
                     </div>
 
@@ -104,11 +111,11 @@
                         <img src="{{ asset('assets/images/about/training.png') }}" class="mb-3" width="30"
                             alt="">
                         <!-- title -->
-                        <h1 class="font-playFair fw-normal">Our Vision</h1>
+                        <h1 class="font-playFair fw-normal">Our Mission</h1>
                         <!-- text -->
                         <p>
-                            To be a leading pastry and bakery training institute in Sri Lanka, recognized for excellence in
-                            education, innovation in baking techniques, and commitment to student success.
+                            To provide high-quality, hands-on training in pastry and bakery arts through internationally
+                            aligned curricula.
                         </p>
 
                     </div>
@@ -120,6 +127,7 @@
         </div>
 
     </div>
+
 
 
     <!-- banner section -->
@@ -179,9 +187,9 @@
 
                     <!-- info -->
                     <div>
-                        <h6 class="animateIn delay-2 text-uppercase">Industry Recognized Certifications</h6>
-                        <p class="mt--55 animateIn delay-3">arn an NVQ Level 4 Certificate in Pastry & Bakery, recognized
-                            in Sri Lanka and beyond.</p>
+                        <h6 class="animateIn delay-2 text-uppercase">State-of-the-Art Facilities</h6>
+                        <p class="mt--55 animateIn delay-3">Train in fully equipped kitchens with modern bakery machines,
+                            AC classrooms, and industry-standard tools.</p>
                     </div>
                 </div>
 
@@ -195,9 +203,9 @@
 
                     <!-- info -->
                     <div>
-                        <h6 class="animateIn delay-2 text-uppercase">Career Advancement</h6>
-                        <p class="mt--55 animateIn delay-3">Get industry connections, job placements, and hands-on work
-                            experience.</p>
+                        <h6 class="animateIn delay-2 text-uppercase">International Opportunities</h6>
+                        <p class="mt--55 animateIn delay-3">The best students may get a chance to participate in
+                            international culinary competitions overseas, representing the academy.</p>
                     </div>
                 </div>
 
@@ -217,8 +225,6 @@
         </div>
 
     </div>
-
-
 
 
 

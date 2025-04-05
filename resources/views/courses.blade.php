@@ -1,9 +1,14 @@
 @extends('layout.master')
 @section('pageTitle', 'Pastry & Bakery Courses | Ceylon Hospitality Academy Kandy')
 
-@section('description', 'Explore our comprehensive pastry and bakery courses in Kandy. Learn essential culinary skills with expert instructors. Enroll now and start your culinary journey.')
+@section('description',
+    'Explore our comprehensive pastry and bakery courses in Kandy. Learn essential culinary skills
+    with expert instructors. Enroll now and start your culinary journey.')
 
-@section('keywords', 'Pastry Courses Kandy, Bakery Courses Kandy, Culinary Courses Sri Lanka, Pastry Training, Bakery Training, Culinary Education, Baking Classes, Pastry Arts, Baking Arts, Culinary School, Hotel School, Food and Beverage Training, Professional Baking, Culinary Diploma')
+@section('keywords',
+    'Pastry Courses Kandy, Bakery Courses Kandy, Culinary Courses Sri Lanka, Pastry Training, Bakery
+    Training, Culinary Education, Baking Classes, Pastry Arts, Baking Arts, Culinary School, Hotel School, Food and Beverage
+    Training, Professional Baking, Culinary Diploma')
 @section('content')
     <!-- Landing section -->
     <div class="container-fluid coursesHero p-0 position-relative">
@@ -12,7 +17,7 @@
             <!-- slogan -->
             <h5 class="text-white text-center text-uppsercase  fw-light">Start Your Baking Journey</h5>
             <!-- title -->
-            <h1 class="font-playFair display-3 text-center text-white">Become a Pastry Chef
+            <h1 class="font-playFair display-3 text-center text-white">Inspiring creativity, skill, and confidence
             </h1>
 
         </div>
@@ -26,7 +31,8 @@
 
                 <!-- info -->
                 <div>
-                    <h6 class="animateIn delay-3 text-center mb-3 text-uppercase">New Opportunities with Strong Connections
+                    <h6 class="animateIn delay-3 text-center mb-3 text-uppercase">Turn your passion for baking into a
+                        rewarding career.
                     </h6>
                     <p class="mt--55 animateIn delay-4 text-center">
                         Our expert-led courses will take you on a journey of creativity, precision, and flavor.
@@ -49,6 +55,7 @@
 
         <div class="container py-5 px-4 p-md-5">
             <div class="row">
+
                 <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
                     <div class="courseCard bg-snow h-100">
                         {{-- course image --}}
@@ -56,11 +63,10 @@
                         {{-- course text data --}}
                         <div class="p-4">
                             {{-- course title --}}
-                            <h5 class="fw-bold">Foundation in Hospitality Management</h5>
+                            <h5 class="fw-bold">Certificate in Pastry and Bakery</h5>
                             {{-- course description --}}
-                            <p class="">Learn the fundamentals of hospitality management and how to build a
-                                successful
-                                business.</p>
+                            <p class="">Learn the fundamentals of pastry and bakery while gaining the skills needed to
+                                build a successful career in the industry.</p>
                             {{-- ratings --}}
                             <div class="d-flex gap-2 align-items-center">
                                 <h5 class="m-0">4.5</h5>
