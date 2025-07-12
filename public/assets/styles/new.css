@@ -1,0 +1,12 @@
+.accordion-button {
+    font-size: 1rem;
+}
+.accordion-body ul {
+    padding-left: 1.2rem;
+}
+.accordion-body li {
+    line-height: 1.6;
+}
+.accordion-body li::marker {
+    color: #ff6b6b;
+}

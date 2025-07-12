@@ -14,3 +14,4 @@
 <link rel="stylesheet" href="{{ asset('assets/styles/index.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/styles/blog.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/styles/footer.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/styles/new.css') }}">
