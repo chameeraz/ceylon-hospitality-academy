@@ -84,6 +84,8 @@
                 <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn"
                     data-category="students">Students</a>
                 <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn"
+                    data-category="creation">Creations</a>
+                <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn"
                     data-category="kitchen">Kitchen</a>
                 <a href="#" class="btn-outline-oak rounded-0 px-4 py-2 category-btn"
                     data-category="interior">Interior</a>
@@ -92,13 +94,6 @@
             <!-- blog posts -->
             <div class="row mt-5">
 
-                <!-- blog 1 -->
-                <div class="col-md-4 mb-4 category-card students">
-                    <!-- blog image -->
-                    <div>
-                        <img src="{{ asset('assets/images/gallery/g1.jpg') }}" class="img-fluid" alt="">
-                    </div>
-                </div>
 
                 <!-- blog 1 -->
                 <div class="col-md-4 mb-4 category-card students">
@@ -120,7 +115,64 @@
                 <div class="col-md-4 mb-4 category-card students">
                     <!-- blog image -->
                     <div>
-                        <img src="{{ asset('assets/images/gallery/g4.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/gallery/new/study2.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card creation">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/food1.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card creation">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/food2.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card creation">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/food3.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study5.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study9.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card creation">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/food4.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card creation">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/food5.jpeg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
 
@@ -169,6 +221,63 @@
                     <!-- blog image -->
                     <div>
                         <img src="{{ asset('assets/images/gallery/g10.jpg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study1.jpeg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study3.jpeg') }}" class="img-fluid"
+                            alt="">
+                    </div>
+                </div>
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study4.jpeg') }}" class="img-fluid"
+                            alt="">
+                    </div>
+                </div>
+
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study6.jpeg') }}" class="img-fluid"
+                            alt="">
+                    </div>
+                </div>
+
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study7.jpeg') }}" class="img-fluid"
+                            alt="">
+                    </div>
+                </div>
+
+
+                <!-- blog 1 -->
+                <div class="col-md-4 mb-4 category-card students">
+                    <!-- blog image -->
+                    <div>
+                        <img src="{{ asset('assets/images/gallery/new/study8.jpeg') }}" class="img-fluid"
+                            alt="">
                     </div>
                 </div>
 
