@@ -234,13 +234,6 @@
         </div>
     </section>
 
-
-
-
-
-
-
-
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const pills = document.querySelectorAll(".navPills");
