@@ -93,7 +93,7 @@
 
                         <div class="">
                             <ul class="p-0 d-flex gap-2 flex-column">
-                                <li class="hoverU"><a href="#api">Privacy Policy</a></li>
+                                <li class="hoverU"><a href="{{ url('/privacy-policy') }}">Privacy Policy</a></li>
                                 <li class="hoverU"><a href="#form-validation">Terms of Service</a></li>
                             </ul>
 

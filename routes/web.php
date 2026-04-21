@@ -28,6 +28,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});
+
 
 Route::get('/courses', function () {
     return view('courses');
