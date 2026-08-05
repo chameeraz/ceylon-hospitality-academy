@@ -1,12 +1,12 @@
 @extends('layout.master')
-@section('pageTitle', 'Ceylon Hospitality Academy | Pastry & Bakery School Kandy')
+@section('pageTitle', 'Ceylon Hospitality Academy | Best pastry and bakery course in sri lanka')
 
 @section('description',
-    'Master pastry & bakery arts at Ceylon Hospitality Academy, Kandy. Expert training, modern
+    'Join the best pastry and bakery course in Sri Lanka at Ceylon Hospitality Academy, Kandy. Expert training, modern
     facilities. Launch your culinary career in Sri Lanka. #HotelSchool #Pastry')
 
 @section('keywords',
-    'Pastry School Kandy, Bakery School Kandy, Hotel School Kandy, Culinary School Kandy, Pastry
+    'Best pastry and bakery course in sri lanka, Pastry School Kandy, Bakery School Kandy, Hotel School Kandy, Culinary School Kandy, Pastry
     Training Sri Lanka, Bakery Training Sri Lanka, Hospitality Training Kandy, Culinary Education Kandy, Pastry Chef
     Training, Bakery Chef Training, Professional Baking Courses, Pastry Arts Courses, Baking Arts Courses, Culinary Arts
     School, Hospitality Management School, Food and Beverage Training')
@@ -14,19 +14,32 @@
 @section('content')
     <!-- Landing section -->
     <div class="container-fluid landingHero p-0 position-relative">
+        
+        <!-- Hero Swiper Background -->
+        <div class="swiper heroSwiper position-absolute w-100 h-100 top-0 start-0" style="z-index: 0;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/slider1.jpg') }}'); background-size: cover; background-position: center top;"></div>
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/slider.jpeg') }}'); background-size: cover; background-position: center top;"></div>
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/slider3.jpg') }}'); background-size: cover; background-position: center top;"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
 
-        <div class="mb-5">
+        <!-- Dark Overlay -->
+        <div class="position-absolute w-100 h-100 top-0 start-0 bg-dark" style="opacity: 0.5; z-index: 1;"></div>
+
+        <div class="mb-5 position-relative" style="z-index: 2;">
             <!-- slogan -->
             <h5 class="text-white text-center text-uppsercase  fw-light">From Passion to Perfection</h5>
             <!-- title -->
-            <h1 class="font-playFair display-3 text-center text-white">Master the Art of Pastry & Bakery
+            <h1 class="font-playFair display-3 text-center text-white">The Best Pastry and Bakery Course in Sri Lanka
             </h1>
 
         </div>
 
 
         <div class="row">
-            <div class="col-md-6 col-lg-6 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
+            <div class="col-md-6 col-lg-6 bg-white p-4 px-md-5 position-absolute bottom-0 end-0" style="z-index: 2;">
                 <!-- title -->
                 <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">Bake Your Dreams Into Reality
                 </h1>
@@ -132,19 +145,7 @@
                             {{-- course description --}}
                             <p class="">Learn the fundamentals of pastry and bakery while gaining the skills needed to
                                 build a successful career in the industry.</p>
-                            {{-- ratings --}}
-                            <div class="d-flex gap-2 align-items-center">
-                                <h5 class="m-0">4.5</h5>
-                                <div class="">
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star-half text-success h6 m-0"></i>
-                                </div>
 
-                                <p class="m-0 text-secondary">(125)</p>
-                            </div>
 
                             {{-- CAT button --}}
                             <div class="mt-4">
@@ -157,15 +158,44 @@
                     </div>
                 </div>
 
+                <!-- F&B Coming Soon Course -->
+                <div class="col-md-6 col-lg-4 mt-4 mt-lg-0">
+                    <div class="courseCard bg-snow h-100 position-relative shadow-sm rounded overflow-hidden">
+                        <div class="position-absolute top-0 end-0 m-3 z-3">
+                            <span class="badge bg-oak text-white px-2 py-1 shadow">Coming Soon</span>
+                        </div>
+                        {{-- course image --}}
+                        <img src="{{ asset('assets/images/index/coffee.jpg') }}" class="img-fluid w-100" style="height: 235px; object-fit: cover;" alt="">
+                        {{-- course text data --}}
+                        <div class="p-4 d-flex flex-column h-100">
+                            {{-- course title --}}
+                            <h5 class="fw-bold mb-3">Food & Beverage (F&B)</h5>
+                            {{-- course description --}}
+                            <p class="text-secondary mb-4 flex-grow-1">
+                                Our upcoming specialized F&B Department will feature dual accreditation (NVQ & Non-NVQ) with world-class facilities including a training restaurant, bar, and labs.
+                            </p>
+                            
+                            <div class="mt-auto">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fa-regular fa-clock text-oak me-2"></i>
+                                    <span class="small text-muted fw-bold">6 Months Execution</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-utensils text-oak me-2"></i>
+                                    <span class="small text-muted fw-bold">Restaurant, Bar & Labs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
 
     </div>
 
-    <div class="container-fluid">
-        <img src="{{ asset('assets/images/main1.jpg') }}" class="img-fluid" alt="">
-
+    <div class="container-fluid p-0 overflow-hidden">
+        <img src="{{ asset('assets/images/main1.jpg') }}" class="img-fluid w-100 hover-zoom-img" style="object-fit: cover;" alt="">
     </div>
 
     <!-- large text | section 2 -->
@@ -183,26 +213,25 @@
 
             <div class="row">
 
-                <!-- data Grid 1 -->
-                <div class="col-md-3 pb-5 pb-md-0">
-                    <h4 class="fw-normal font-playFair animateIn delay-2">Total Instructors</h4>
+                <!-- feature Grid 1 -->
+                <div class="col-md-4 pb-5 pb-md-0">
+                    <h4 class="fw-normal font-playFair animateIn delay-2">TVEC Registered</h4>
                     <hr class="animateHr">
-                    <h3 class="font-playFair animateIn delay-3">12+</h3>
+                    <h5 class="font-playFair animateIn delay-3 fw-light">Government Approved</h5>
                 </div>
 
-                <!-- data Grid 2 -->
-                <div class="col-md-3 pb-5 pb-md-0">
-                    <h4 class="fw-normal font-playFair animateIn delay-2">Total Students</h4>
+                <!-- feature Grid 2 -->
+                <div class="col-md-4 pb-5 pb-md-0">
+                    <h4 class="fw-normal font-playFair animateIn delay-2">NVQ Qualifications</h4>
                     <hr class="animateHr">
-                    <h3 class="font-playFair animateIn delay-3">100+</h3>
+                    <h5 class="font-playFair animateIn delay-3 fw-light">Nationally Recognized</h5>
                 </div>
 
-
-                <!-- data Grid 4 -->
-                <div class="col-md-3 pb-5 pb-md-0">
-                    <h4 class="fw-normal font-playFair animateIn delay-2">Community</h4>
+                <!-- feature Grid 3 -->
+                <div class="col-md-4 pb-5 pb-md-0">
+                    <h4 class="fw-normal font-playFair animateIn delay-2">100% Practical</h4>
                     <hr class="animateHr">
-                    <h3 class="font-playFair animateIn delay-3">150+</h3>
+                    <h5 class="font-playFair animateIn delay-3 fw-light">Hands-On Training</h5>
                 </div>
 
 
@@ -449,20 +478,16 @@
 
 
                     <div class="d-flex flex-wrap gap-5">
-                        <a href="#" class="text-decoration-none text-white h3">
+                        <a href="https://www.facebook.com/ceylonhospitalityacademy" target="_blank" class="text-decoration-none text-white h3">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
 
-                        <a href="#" class="text-decoration-none text-white h3">
+                        <a href="https://www.instagram.com/ceylonhospitalityacademy/" target="_blank" class="text-decoration-none text-white h3">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
 
-                        <a href="#" class="text-decoration-none text-white h3">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-
-                        <a href="#" class="text-decoration-none text-white h3">
-                            <i class="fa-brands fa-youtube"></i>
+                        <a href="https://www.linkedin.com/company/ceylon-hospitality-academy" target="_blank" class="text-decoration-none text-white h3">
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </div>
 

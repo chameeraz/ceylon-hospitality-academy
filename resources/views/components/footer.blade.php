@@ -1,4 +1,5 @@
 <!--  banner section  -->
+@if(!Request::is('about'))
 <div class="container-fluid footerBanner bg-white">
 
     <div class="row d-flex align-items-bottom px-5">
@@ -33,6 +34,7 @@
     </div>
 
 </div>
+@endif
 
 <div class="container-fluid p-3 p-md-5 bg-oak position-relative">
 
@@ -43,21 +45,24 @@
 
 
             <div class="col-md-5">
-                <img src="{{ asset('assets/images/logo.png') }}" class="img-fluid w-md-50" alt="">
-
-                <!-- social buttons | mobile -->
+                <img src="{{ asset('assets/images/logo.png') }}" class="img-fluid w-md-50 mb-4" alt="">
+                
+                <!-- Google Map Embed -->
+                <div class="map-responsive" style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;">
+                    <iframe src="https://maps.google.com/maps?q=Ceylon%20Hospitality%20Academy%20Kandy&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; position:absolute; top:0; left:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 <div class="mt-5 d-flex justify-content-center gap-5 d-md-none">
 
-                    <a href="#" class="text-decoration-none text-white">
+                    <a href="https://www.facebook.com/ceylonhospitalityacademy" target="_blank" class="text-decoration-none text-white">
                         <i class="fa-brands fa-facebook-f h3"></i>
                     </a>
 
-                    <a href="#" class="text-decoration-none text-white">
+                    <a href="https://www.instagram.com/ceylonhospitalityacademy/" target="_blank" class="text-decoration-none text-white">
                         <i class="fa-brands fa-instagram h3"></i>
                     </a>
 
-                    <a href="#" class="text-decoration-none text-white">
-                        <i class="fa-brands fa-x-twitter h3"></i>
+                    <a href="https://www.linkedin.com/company/ceylon-hospitality-academy" target="_blank" class="text-decoration-none text-white">
+                        <i class="fa-brands fa-linkedin-in h3"></i>
                     </a>
 
                 </div>

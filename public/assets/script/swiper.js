@@ -14,3 +14,17 @@ var swiper = new Swiper(".footerImgSwiper", {
         disableOnInteraction: false, // Allows autoplay to continue after user interactions
     },
 });
+
+var heroSwiper = new Swiper(".heroSwiper", {
+    slidesPerView: 1,
+    loop: true,
+    effect: "fade",
+    pagination: {
+        el: ".heroSwiper .swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+});

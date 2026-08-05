@@ -1,12 +1,12 @@
 @extends('layout.master')
-@section('pageTitle', 'Pastry & Bakery Courses | Ceylon Hospitality Academy Kandy')
+@section('pageTitle', 'Best pastry and bakery course in sri lanka | Ceylon Hospitality Academy Kandy')
 
 @section('description',
-    'Explore our comprehensive pastry and bakery courses in Kandy. Learn essential culinary skills
+    'Explore the best pastry and bakery course in Sri Lanka in Kandy. Learn essential culinary skills
     with expert instructors. Enroll now and start your culinary journey.')
 
 @section('keywords',
-    'Pastry Courses Kandy, Bakery Courses Kandy, Culinary Courses Sri Lanka, Pastry Training, Bakery
+    'Best pastry and bakery course in sri lanka, Pastry Courses Kandy, Bakery Courses Kandy, Culinary Courses Sri Lanka, Pastry Training, Bakery
     Training, Culinary Education, Baking Classes, Pastry Arts, Baking Arts, Culinary School, Hotel School, Food and Beverage
     Training, Professional Baking, Culinary Diploma')
 @section('content')
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-6 bg-white p-4 px-md-5 position-absolute bottom-0 end-0">
                 <!-- title -->
-                <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">Master the Art of Pastry & Baking
+                <h1 class="text-center mb-4 font-playFair text-oak animateIn delay-2">Enroll in the Best Pastry and Bakery Course in Sri Lanka
                 </h1>
 
                 <!-- info -->
@@ -67,19 +67,7 @@
                             {{-- course description --}}
                             <p class="">Learn the fundamentals of pastry and bakery while gaining the skills needed to
                                 build a successful career in the industry.</p>
-                            {{-- ratings --}}
-                            <div class="d-flex gap-2 align-items-center">
-                                <h5 class="m-0">4.5</h5>
-                                <div class="">
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star text-success h6 m-0"></i>
-                                    <i class="fa-solid fa-star-half text-success h6 m-0"></i>
-                                </div>
 
-                                <p class="m-0 text-secondary">(125)</p>
-                            </div>
 
                             {{-- CAT button --}}
                             <div class="mt-4">
@@ -87,6 +75,47 @@
                                     class="btn-oak text-uppercase btn-1 hover-filled-slide-down">
                                     <span>Learn More</span>
                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- F&B Coming Soon Course -->
+                <div class="col-md-12 col-lg-8 mt-4 mt-md-0">
+                    <div class="courseCard bg-snow h-100 position-relative shadow-sm rounded overflow-hidden">
+                        <!-- Coming Soon Badge -->
+                        <div class="position-absolute top-0 end-0 m-3 z-3">
+                            <span class="badge bg-oak text-white px-3 py-2 fs-6 shadow">Coming Soon</span>
+                        </div>
+                        
+                        <div class="row g-0 h-100">
+                            <!-- Image Section -->
+                            <div class="col-md-5">
+                                <img src="{{ asset('assets/images/index/coffee.jpg') }}" class="img-fluid h-100 w-100" style="object-fit: cover; min-height: 250px;" alt="Food and Beverage">
+                            </div>
+                            
+                            <!-- Content Section -->
+                            <div class="col-md-7 d-flex flex-column justify-content-center p-4 p-md-5">
+                                <h4 class="fw-bold text-dark mb-4">Food & Beverage (F&B)</h4>
+                                
+                                <p class="text-secondary mb-4" style="font-size: 0.95rem; line-height: 1.6;">
+                                    This strategic action plan, prepared under the direction of Executive Leadership, outlines the phased roadmap for establishing the specialized Food & Beverage (F&B) Department at Ceylon Hospitality Academy. The initiative encompasses comprehensive curriculum design aligned with national (NVQ) and international hospitality standards, physical facility acquisition and construction (training restaurant, bar, and classroom infrastructure), legal corporate structuring, and operational execution leading to the inaugural student intake by late January.
+                                </p>
+
+                                <div class="row g-3 mt-auto">
+                                    <div class="col-sm-4">
+                                        <h6 class="fw-bold text-oak mb-1" style="font-size: 0.85rem;">STANDARDS FRAMEWORK</h6>
+                                        <p class="small text-muted m-0">NVQ & Non-NVQ Dual Accreditation</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="fw-bold text-oak mb-1" style="font-size: 0.85rem;">PROJECT HORIZON</h6>
+                                        <p class="small text-muted m-0">6 Months Execution</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="fw-bold text-oak mb-1" style="font-size: 0.85rem;">FACILITIES BUILT</h6>
+                                        <p class="small text-muted m-0">Restaurant, Bar & Labs</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -167,20 +196,16 @@
 
 
                     <div class="d-flex flex-wrap gap-5">
-                        <a href="#" class="text-decoration-none text-white h3">
+                        <a href="https://www.facebook.com/ceylonhospitalityacademy" target="_blank" class="text-decoration-none text-white h3">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
 
-                        <a href="#" class="text-decoration-none text-white h3">
+                        <a href="https://www.instagram.com/ceylonhospitalityacademy/" target="_blank" class="text-decoration-none text-white h3">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
 
-                        <a href="#" class="text-decoration-none text-white h3">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-
-                        <a href="#" class="text-decoration-none text-white h3">
-                            <i class="fa-brands fa-youtube"></i>
+                        <a href="https://www.linkedin.com/company/ceylon-hospitality-academy" target="_blank" class="text-decoration-none text-white h3">
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </div>
 

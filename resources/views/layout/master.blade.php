@@ -9,7 +9,7 @@
 
 
     <title>@yield('pageTitle')</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/original.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/Logo-c.png') }}">
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
     <meta name="author" content="Ceylon Hospitality Academy">
@@ -18,8 +18,20 @@
     <meta property="og:title" content="@yield('pageTitle')">
     <meta property="og:description" content="@yield('description')">
     <meta property="og:image" content="{{ asset('assets/images/Logo-c.png') }}">
-    <meta property="og:url" content="{{ url()->current() }}">`
+    <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
+
+    {{-- Twitter Card --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('pageTitle')">
+    <meta name="twitter:description" content="@yield('description')">
+    <meta name="twitter:image" content="{{ asset('assets/images/Logo-c.png') }}">
+
+    {{-- AEO & Local SEO Meta Tags --}}
+    <meta name="subject" content="Best pastry and bakery course in sri lanka">
+    <meta name="classification" content="Education, Pastry School, Bakery Course">
+    <meta name="geo.region" content="LK-CP">
+    <meta name="geo.placename" content="Kandy">
 
     <!-- main font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,8 +43,16 @@
     {{-- Style CSS --}}
     @include('layout.userStyles')
 
+    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NGERBCNR16"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
+  gtag('config', 'G-NGERBCNR16');
+</script>
 </head>
 
 <body>

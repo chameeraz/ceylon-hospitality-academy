@@ -1,6 +1,6 @@
 <!-- navigation -->
 <header id="header"
-    class="container-fluid px-md-5 pt-1 pb-2 primary-header d-flex justify-content-between align-items-center">
+    class="container-fluid px-md-5 pb-2 primary-header d-flex justify-content-between align-items-center">
 
     <!-- logo -->
 

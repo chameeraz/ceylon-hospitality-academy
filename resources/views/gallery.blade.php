@@ -1,12 +1,12 @@
 @extends('layout.master')
-@section('pageTitle', 'Gallery | Pastry & Bakery Creations | Ceylon Hospitality Academy Kandy')
+@section('pageTitle', 'Gallery | Best pastry and bakery course in sri lanka | Ceylon Hospitality Academy Kandy')
 
 @section('description',
-    'Explore stunning pastry & bakery creations from Ceylon Hospitality Academy students. See our
+    'Explore stunning pastry & bakery creations from the best pastry and bakery course in Sri Lanka. See our
     modern facilities & hands-on training in Kandy. Get inspired!')
 
 @section('keywords',
-    'Pastry Gallery Kandy, Bakery Gallery Kandy, Culinary Gallery Sri Lanka, Pastry Creations, Bakery
+    'Best pastry and bakery course in sri lanka, Pastry Gallery Kandy, Bakery Gallery Kandy, Culinary Gallery Sri Lanka, Pastry Creations, Bakery
     Creations, Culinary Photos, Baking Images, Hotel School Gallery, Culinary School Photos, Student Pastry, Student Bakery,
     Kandy Baking, Culinary Visuals')
 @section('content')
@@ -366,20 +366,16 @@
 
 
                     <div class="d-flex flex-wrap gap-5">
-                        <a href="#" class="text-decoration-none text-white h3">
+                        <a href="https://www.facebook.com/ceylonhospitalityacademy" target="_blank" class="text-decoration-none text-white h3">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
 
-                        <a href="#" class="text-decoration-none text-white h3">
+                        <a href="https://www.instagram.com/ceylonhospitalityacademy/" target="_blank" class="text-decoration-none text-white h3">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
 
-                        <a href="#" class="text-decoration-none text-white h3">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-
-                        <a href="#" class="text-decoration-none text-white h3">
-                            <i class="fa-brands fa-youtube"></i>
+                        <a href="https://www.linkedin.com/company/ceylon-hospitality-academy" target="_blank" class="text-decoration-none text-white h3">
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </div>
 

@@ -1,12 +1,12 @@
 @extends('layout.master')
-@section('pageTitle', 'Privacy Policy | Ceylon Hospitality Academy')
+@section('pageTitle', 'Privacy Policy | Best pastry and bakery course in sri lanka | Ceylon Hospitality Academy')
 
 @section('description',
-    'Read the Privacy Policy of Ceylon Hospitality Academy. Learn how we collect, use, and protect your
+    'Read the Privacy Policy of Ceylon Hospitality Academy, offering the best pastry and bakery course in Sri Lanka. Learn how we collect, use, and protect your
     personal information when you use our website and services.')
 
 @section('keywords',
-    'Privacy Policy, Ceylon Hospitality Academy, data protection, personal information, cookies policy,
+    'Best pastry and bakery course in sri lanka, Privacy Policy, Ceylon Hospitality Academy, data protection, personal information, cookies policy,
     Pastry School Kandy, Bakery School Sri Lanka')
 
 @section('content')
